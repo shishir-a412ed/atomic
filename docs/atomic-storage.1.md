@@ -73,8 +73,8 @@ the directory must be present for the import to happen successfully.
 
 **--add-device**
 Add the block devices names to /etc/sysconfig/docker-storage-setup.
-You must run docker-storage-setup to add the block devices
-to storage pool. docker-storage-setup will expand your devicemapper
+You must run container-storage-setup to add the block devices
+to storage pool. container-storage-setup will expand your devicemapper
 storage pool by adding the block device. Only works with devicemapper driver.
 
 E.g atomic storage modify --add-device /dev/vdb will add `DEVS="/dev/vdb"`
